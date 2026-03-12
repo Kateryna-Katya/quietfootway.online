@@ -67,3 +67,55 @@
     padding-bottom: 83px;
  }
 }
+/* A STORY OF TRANSFORMATION */
+.story-section{
+    background-image: url("/img/story/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.story-section p{
+    margin-top: 32px;
+}
+@media only screen and (min-width: 1440px) {
+ .story-section{
+    background-image: url("/img/story/desk.png");
+ }
+ .story-section p {
+     margin-top: 40px;
+     width: 640px;
+ }
+}
+/* HOW TO PLAY */
+.how-text{
+    margin-top: 32px;
+}
+.how-list{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.how-item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #f8a043;
+}
+.how-img{
+    margin-top: 32px;
+}
+@media only screen and (min-width: 1440px) {
+ .how-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 98px;
+ }
+ .how-img{
+    margin-top: 0;
+ }
+ .how-wrapper{
+    width: 544px;
+ }
+}
