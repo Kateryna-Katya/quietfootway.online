@@ -140,3 +140,37 @@
   
   }
 }
+/* BITE-SIZED CHALLENGES */
+.bite-img-wrapper{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+  
+  .bit-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 100px;
+  }
+  .bite-img-wrapper{
+    display: block;
+    position: relative;
+    width: 440px;
+    height:400px;
+  }
+  .x1{
+    position: absolute;
+    top: 0;
+right: 20px;
+  }
+  .x2{
+    position: absolute;
+    left: 20px;
+    top: 60px;
+  }
+  .x3{
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+  }
+}
