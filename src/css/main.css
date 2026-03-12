@@ -210,3 +210,17 @@ padding-bottom: 80px;
     flex-direction: row-reverse;
   }
 }
+/* WHY THE WAY OUT STANDS OUT */
+.why-img{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+.why-img {
+        display: block;
+    }
+.why-container{
+    display: flex;
+   align-items: center;
+   gap: 170px;
+}
+}
