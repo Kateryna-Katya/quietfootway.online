@@ -119,3 +119,24 @@
     width: 544px;
  }
 }
+/* HANDCRAFTED PUZZLES */
+.handcrafted-text{
+    margin-top: 32px;
+}
+.handcrafted-img{
+    margin-top: 32px;
+}
+@media only screen and (min-width: 1440px) {
+  .handcrafted-container{
+    display: flex;
+    align-items: center;
+    gap: 132px;
+  }
+  .handcrafted-text-one{
+    font-size: 20px;  
+  }
+  .handcrafted-text{
+    width: 544px;
+  
+  }
+}
