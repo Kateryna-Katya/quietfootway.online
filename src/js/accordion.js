@@ -6,15 +6,14 @@ document.querySelectorAll('.faq-acc-el-trigger').forEach(trigger => {
         const isOpen = parentElement.classList.contains('open');
 
         const plusIcon = `
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M24 12L14 22L4 12" stroke="#8B8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M24 6L14 16L4 6" stroke="#8B8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M12 4V20" stroke="#F8A043" stroke-width="3" />
+  <path d="M20 12L4 12" stroke="#F8A043" stroke-width="3" />
 </svg>`;
 
         const minusIcon = `
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M24 16L14 6L4 16" stroke="#8B8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M24 22L14 12L4 22" stroke="#8B8A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20 12L4 12" stroke="#F8A043" stroke-width="3" />
 </svg>`;
 
         if (!isOpen) {
