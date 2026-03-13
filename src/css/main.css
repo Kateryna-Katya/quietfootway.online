@@ -390,3 +390,28 @@ font-family: "Englebert", sans-serif;
   font-size: 18px;
   }
 }
+/* Final */
+.final-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.final-title{
+    font-size: 64px;
+    text-align: center;
+}
+.final-subtitle{
+  text-align: center;
+}
+.final-link{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+@media only screen and (min-width: 1440px) {
+ .final-title{
+  font-size: 128px;
+ }
+ .final-link{
+  margin: 40px auto;
+ }
+}
